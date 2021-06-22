@@ -1,0 +1,17 @@
+QUESTIONS
+1. What is computer programming?
+2. What is an IDE?
+3. Define the term source code
+4. Give examples of statistical programmes
+5. Identify the basic operators used in R
+6. What are functions and packages in R
+7. Explain desicion making in the context of programming
+8. Why is R preffered to other statistical programming languages?
+9. Explain the applications of R programming in real world
+10. Give the alternatives to R programming language
+
+DATATYPES IN R
+Logical datatypes - Returns the boolean values
+Integers
+Numerics - Integers and decimals
+Characters - String or text use "" to define a string

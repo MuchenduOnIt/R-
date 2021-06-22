@@ -1,0 +1,25 @@
+Variables
+1. Categorical -> Qualitative
+2. Quantitatve 
+
+Qualitative
+1. Nominal (male or female)
+2. Ordinal (level of education)
+
+Quantitave
+1. Continous -> Take fractions or decimals
+2. Discrete -> Take whole numbers only (age)
+
+Numerical 
+frequency table
+Mean( Standard Deviation)
+Median
+five number summary (minimum, q1, q2, q3, maximum) -> Leads to the construction of box plot
+
+Graphical
+Bar Chart
+Pie Chart
+Histogram
+Stem plot
+Box Plot etc
+Skewness and kurtosis

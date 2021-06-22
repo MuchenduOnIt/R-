@@ -1,0 +1,53 @@
+We don't have strings in R, instead we have character.
+Other datatypes include;
+  Logical -> TRUE, FALSE
+  Numeric -> 12.3, 5, 999 (No floats)
+  Integer -> 2l, 34l, 0l
+  Complex -> 3 + 2i
+  
+  
+  VECTORS
+To create a vector use the c() function
+  example
+  apple <- c('red','green',"yellow")
+  
+  LISTS
+A list is an R-OBject that can contain many different types of elements inside it like vectors, function and even other lists inside it
+  example
+  list1 <- list(c(2,5,3),21.3,sin)
+  
+  MATRICES
+A matrix is a two-dimesional rectangular set. It can be created using a vector input to the matrix function
+  example
+  M = matrix( c('a','a','b','c','b','a'), nrow = 2, ncol = 3, byrow = TRUE)
+  
+  ARRAYS 
+Arrays can be of any number of dimensions. The array function takes a dim attribute which creates an array which creates the required number of dimesion.
+  example
+  a <- array(c('green','yellow'),dim = c(3,3,2))
+  
+  FACTORS
+Factors are r-objects created using a vector. They stores the vector along with distinct values of the elements in the vectors as labels. The labels are always character 'string' irrespective of wheather it is numeric or character or Bool in the input vector.
+  example
+#create a vector
+apple_colors <- c('green','green','yellow','red','red','red','green')
+#create a factor
+factor_apple <- factor(appple_colors)
+
+  DATA FRAMES
+They are tabular data objects. Unlike matrix in data frame, each column can contain different mode of data. The first column can be numeric while the second can be character and third col can be logical
+  example
+ BMI <- 	data.frame(
+   gender = c("Male", "Male","Female"), 
+   height = c(152, 171.5, 165), 
+   weight = c(81,93, 78),
+   Age = c(42,38,26)
+) 
+
+
+  TYPES OF OPERATORS
+Arithmetic operators -> +, -, *, /, ^
+Relational operators -> ==, <, >,
+Logical operators -> &, |, !
+Assignment operators -> (<-, =, <<-, ->, ->>)
+Miscellaneous operators -> :, %in%, %*%
