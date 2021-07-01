@@ -1,17 +1,22 @@
-QUESTIONS
-1. What is computer programming?
-2. What is an IDE?
-3. Define the term source code
-4. Give examples of statistical programmes
-5. Identify the basic operators used in R
-6. What are functions and packages in R
-7. Explain desicion making in the context of programming
-8. Why is R preffered to other statistical programming languages?
-9. Explain the applications of R programming in real world
-10. Give the alternatives to R programming language
+*********001********
+VECTOR NAMES
+Entries in avector can and normally should be "named". It is 
+a way of associating a numeric reading with a simple id, 
+VECTOR ARITHMETIC
+Numeric vectors can be used in arithmetic expressions, in which case the 
+operatinos are performed element by element to produce another vector.
+More Arithmetic;
+  var()
+  sum()
+  summary()
+  
+GENERATING REGULAR SEQUENCES:
+seq(1,30) -> c(1, 2, 3, ..., 29, 30) -> 1:30
+a <- character(n) creates a charater vector a of length. Integer(n) and
+numeric(n) create integer and numeric vectors of lenght n with entries 0
+a <- vector(mode = "character", length = 10)
 
-DATATYPES IN R
-Logical datatypes - Returns the boolean values
-Integers
-Numerics - Integers and decimals
-Characters - String or text use "" to define a string
+Logical Vectors
+Comparisons in R output logical values TRUE, FALSE or NA
+LOgical Comparisons;
+They are: <, <=, >, >=, == for exact equality and != for inequlity.

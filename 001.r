@@ -1,21 +1,38 @@
-#CLASS ONE
-library(datasets)
-a <- plot(iris) #loading inbuilt datasets
-a
-9%%2
-myname <- "Stephen"
-myname
-my_logic = (9 > 6)
-my_logic
-string_vector = c("blue", "red", "89", "White")
-string_vector
-cat_marks = c(19, 26, 16, 30, 15)
-cat_marks/2
-ass = c(19, 26, 16, 30, 15)
-ass + cat_marks
-employees = c("Max", "Luke", "John", "Steve")
-employees[c(2,4)]
-sales =c(24000, 25000, 26000 ,27000, 28000)
-days =c("Monday", "Teusday", "Wednesday", "Thursday", "Friday")
-names(sales)=days
-sales
+v <- c(1, 2, 3)
+v
+s <- "a string"
+s
+#returning the type of the vector
+class(s)
+class(v)
+#returning the length of the vector
+x <- c("a", "b", "c")
+print(length(x))
+
+#Vector Names
+v <- c(s1 = 0.3, s2=0.1, s3=1.1)
+v
+#Sorting vectors
+sort(v)
+#Names
+names(v)
+
+#Vector Arithmetic
+#The rnorm() generates random variates assuming a normal distribution
+x <- rnorm(20)
+y <- rnorm(20)
+x
+print(x + 1)
+
+#Generating regular sequences
+x1 = seq(-1, 0, by = 0.1)
+x1
+y <- rep(x1, times = 50)
+print(length(y))
+TF <- y > -0.6
+TF
+
+#Working with logical
+v <- seq(-3, 3)
+Pauline <- v > 0
+Pauline
