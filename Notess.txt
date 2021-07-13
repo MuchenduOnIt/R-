@@ -51,3 +51,23 @@ Relational operators -> ==, <, >,
 Logical operators -> &, |, !
 Assignment operators -> (<-, =, <<-, ->, ->>)
 Miscellaneous operators -> :, %in%, %*%
+
+
+NORMALITY TESTS
+In statistics, normality test are used to determine if a data set is well
+-modeled by a normal distribution and to compute how likely it is for a random
+variable underlying the data set to be normally distributed. The two known
+tests of normality are the  test and the Shapiro_Wilk test.
+
+How to identify a data set is normally distributed?
+-Display the box plot
+  -to detect outlier
+  
+-present the histogram
+  -to identify whether the figure is a bell shape or approximately normal]
+  
+-Quantile-quantile plot (qq plot)
+
+-Shapiro test
+
+
