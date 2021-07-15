@@ -47,3 +47,16 @@ shapiro.test(UnempRate)
 
 # We can also generate random numbers and use them to check for normality
 test=round(rnorm(100, 60, 10))
+
+
+# t - test
+x = rnorm(10)
+y = rnorm(10)
+ttest = t.test(x,y)
+names(ttest)
+ttest$statistic # to extract the statistic
+ts = replicate(1000,t.test(rnorm(10),rnorm(10))$statistic)
+range(ts)
+pts = seq(-4.5,4.5,length=100)
+plot(pts,dt(pts,df=18),col='red',type='l')
+lines(density(ts))
