@@ -10,25 +10,6 @@ names(gdp) <- c("iso2c", "Country", "Year", "PerCapGDP", "GDP")
 head(gdp)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Example: Let’s take the example of COVID-19 pandemic situation. 
 # Taking total number of positive cases of COVID-19 cases weekly from 22 
 # January, 2020 to 15 April, 2020 of the world in data vector.

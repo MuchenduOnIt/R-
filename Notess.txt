@@ -71,3 +71,12 @@ How to identify a data set is normally distributed?
 -Shapiro test
 
 
+THE RUNIF FUNCTION
+runif can be used to produce random numbers; runif does not stand for run if.
+runif(n) generates n uniform random numbers between 0 and 1.
+runif(n, a, b) generates n uniform random numbers between a and b.
+
+THE SET SEED()
+Used for random number generation. It can only accept one integer.
+Itis used along side other methods of simulation eg rnorm
+

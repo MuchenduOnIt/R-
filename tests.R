@@ -60,3 +60,7 @@ range(ts)
 pts = seq(-4.5,4.5,length=100)
 plot(pts,dt(pts,df=18),col='red',type='l')
 lines(density(ts))
+
+
+set.seed(8)
+print(rnorm(5))
