@@ -11,8 +11,12 @@ def simple_automation():
         starting_cohort = starting_cohort - deaths
         dx.append(round(deaths, 1))
         lx.append(round(starting_cohort, 1))
-        
-    print(dx)
-    print(lx)
+    
+    for i in range(len(lx)-1):
+        Lx.append((lx[i]+lx[i+1])/2)
+    
+    print(f'Lx = {Lx}')
+    print(f'dx = {dx}')
+    print(f'lx = {lx}')
     
 simple_automation()
