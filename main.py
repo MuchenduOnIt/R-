@@ -3,6 +3,7 @@ def simple_automation():
     dx = []
     lx = []
     Lx = []
+    Tx = []
     n = 1
     deaths = 0
     starting_cohort = 100000 
@@ -18,5 +19,6 @@ def simple_automation():
     print(f'Lx = {Lx}')
     print(f'dx = {dx}')
     print(f'lx = {lx}')
+    print(sum(Lx))
     
 simple_automation()
