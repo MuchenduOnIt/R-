@@ -7,6 +7,7 @@ def simple_automation():
     n = 1
     deaths = 0
     starting_cohort = 100000 
+    ELx = 1000000
     for i in Qx:
         deaths = i * starting_cohort
         starting_cohort = starting_cohort - deaths
@@ -14,11 +15,13 @@ def simple_automation():
         lx.append(round(starting_cohort, 1))
     
     for i in range(len(lx)-1):
-        Lx.append((lx[i]+lx[i+1])/2)
-    
+        Lx.append(round((lx[i]+lx[i+1])/2, 1))
+       
     print(f'Lx = {Lx}')
     print(f'dx = {dx}')
     print(f'lx = {lx}')
-    print(sum(Lx))
+    print(f'Tx = {Tx}')
+    
     
 simple_automation()
+
